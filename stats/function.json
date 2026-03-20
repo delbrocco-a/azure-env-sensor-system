@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "queueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "statisticqueue",
+      "connection": "AzureWebJobsStorage"
+	}
+  ],
+  "scriptFile": "stats.exe"
+}
+
